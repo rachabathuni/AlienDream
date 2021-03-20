@@ -5,16 +5,12 @@ import android.os.Bundle;
 import android.view.View;
 
 public class TestActivity extends Activity {
-    private VideoController videoController;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         
         setTitle(R.string.daydream_name);
-
-        videoController = new VideoController(this);
-        setContentView(videoController.getView());
     }
     
     @Override
@@ -31,7 +27,6 @@ public class TestActivity extends Activity {
 
     @Override
     protected void onStop() {
-        videoController.stop();
         super.onStop();
     }
 }
