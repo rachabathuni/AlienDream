@@ -1,4 +1,4 @@
-package com.codingbuffalo.aerialdream;
+package com.sailu.aliendream;
 
 import android.content.Context;
 import android.graphics.Canvas;

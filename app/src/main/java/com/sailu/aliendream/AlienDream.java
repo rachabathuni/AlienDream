@@ -1,8 +1,8 @@
-package com.codingbuffalo.aerialdream;
+package com.sailu.aliendream;
 
 import android.service.dreams.DreamService;
 
-public class AerialDream extends DreamService {
+public class AlienDream extends DreamService {
     private VideoController videoController;
 
     @Override

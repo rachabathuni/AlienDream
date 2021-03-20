@@ -1,8 +1,8 @@
-package com.codingbuffalo.aerialdream.data;
+package com.sailu.aliendream.data;
 
 import android.content.Context;
 
-import com.codingbuffalo.aerialdream.R;
+import com.sailu.aliendream.R;
 
 import java.util.LinkedList;
 import java.util.List;

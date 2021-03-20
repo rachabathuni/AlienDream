@@ -1,4 +1,4 @@
-package com.codingbuffalo.aerialdream;
+package com.sailu.aliendream;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -8,17 +8,17 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
-import com.codingbuffalo.aerialdream.data.Apple2015Video;
-import com.codingbuffalo.aerialdream.data.Apple2017Video;
-import com.codingbuffalo.aerialdream.data.Apple2018Video;
-import com.codingbuffalo.aerialdream.data.Video;
-import com.codingbuffalo.aerialdream.data.VideoInteractor;
-import com.codingbuffalo.aerialdream.data.VideoPlaylist;
-import com.codingbuffalo.aerialdream.databinding.AerialDreamBinding;
-import com.codingbuffalo.aerialdream.databinding.VideoViewBinding;
+import com.sailu.aliendream.data.Apple2015Video;
+import com.sailu.aliendream.data.Apple2017Video;
+import com.sailu.aliendream.data.Apple2018Video;
+import com.sailu.aliendream.data.Video;
+import com.sailu.aliendream.data.VideoInteractor;
+import com.sailu.aliendream.data.VideoPlaylist;
+import com.sailu.aliendream.databinding.AlienDreamBinding;
+import com.sailu.aliendream.databinding.VideoViewBinding;
 
 public class VideoController implements VideoInteractor.Listener, ExoPlayerView.OnPlayerEventListener {
-    private AerialDreamBinding binding;
+    private AlienDreamBinding binding;
 
     private VideoPlaylist playlist;
 
@@ -29,7 +29,7 @@ public class VideoController implements VideoInteractor.Listener, ExoPlayerView.
 
     public VideoController(Context context) {
         LayoutInflater inflater = LayoutInflater.from(context);
-        binding = DataBindingUtil.inflate(inflater, R.layout.aerial_dream, null, false);
+        binding = DataBindingUtil.inflate(inflater, R.layout.alien_dream, null, false);
 
         // Apply preferences
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);

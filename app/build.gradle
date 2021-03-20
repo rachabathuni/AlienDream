@@ -18,7 +18,7 @@ android {
     buildToolsVersion '29.0.3'
 
     defaultConfig {
-        applicationId "com.codingbuffalo.aerialdream"
+        applicationId "com.sailu.aliendream"
         minSdkVersion 17
         targetSdkVersion 29
         versionCode 1 // Will be incremented automatically on release

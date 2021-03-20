@@ -1,4 +1,4 @@
-package com.codingbuffalo.aerialdream;
+package com.sailu.aliendream;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
