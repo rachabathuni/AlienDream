@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.codingbuffalo.aerialdream.ExoPlayerView
+        <com.sailu.aliendream.ExoPlayerView
             android:id="@+id/video_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -62,7 +62,7 @@
             android:gravity="end"
             android:visibility="@{showClock ? View.VISIBLE : View.GONE}" />
 
-        <com.codingbuffalo.aerialdream.VideoProgressBar
+        <com.sailu.aliendream.VideoProgressBar
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_gravity="bottom"

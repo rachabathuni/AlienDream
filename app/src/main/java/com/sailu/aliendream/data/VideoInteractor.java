@@ -1,10 +1,10 @@
-package com.codingbuffalo.aerialdream.data;
+package com.sailu.aliendream.data;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
 
-import com.codingbuffalo.aerialdream.data.protium.Interactor;
-import com.codingbuffalo.aerialdream.data.protium.ValueTask;
+import com.sailu.aliendream.data.protium.Interactor;
+import com.sailu.aliendream.data.protium.ValueTask;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

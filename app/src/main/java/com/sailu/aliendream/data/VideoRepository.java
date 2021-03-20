@@ -1,4 +1,4 @@
-package com.codingbuffalo.aerialdream.data;
+package com.sailu.aliendream.data;
 
 import android.content.Context;
 import androidx.annotation.RawRes;

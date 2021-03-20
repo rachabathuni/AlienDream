@@ -1,4 +1,4 @@
-package com.codingbuffalo.aerialdream.data;
+package com.sailu.aliendream.data;
 
 import java.util.Collections;
 import java.util.List;
