@@ -5,9 +5,11 @@ import android.service.dreams.DreamService;
 
 import java.util.TimerTask;
 import android.os.Handler;
+import android.util.Log;
 
 
 public class AlienDream extends DreamService {
+    private final String TAG = "AlienDream";
     private FrameDisplay m_frameDisplay;
     private PictureRotater m_pictureRotater;
 
@@ -18,7 +20,7 @@ public class AlienDream extends DreamService {
 
     @Override
     public void onAttachedToWindow() {
-        System.out.println("srdebug: onAttachedToWindow");
+        Log.i(TAG,"onAttachedtoWindow");
         super.onAttachedToWindow();
         setFullscreen(true);
 
@@ -37,13 +39,12 @@ public class AlienDream extends DreamService {
 
     @Override
     public void onDreamingStarted() {
-        System.out.println("srdebug: onDreamingStarted");
+        Log.i(TAG, "onDreamingStarted");
         super.onDreamingStarted();
         m_pictureRotater.startRotation();
     }
 
     public void onDreamingStopped() {
-        //videoController.stop();
         super.onDreamingStopped();
         m_pictureRotater.stopRotation();
     }
