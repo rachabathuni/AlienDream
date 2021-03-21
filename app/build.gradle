@@ -67,18 +67,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 
-preBuild.doFirst {
-    // Fetch playlist files
-    exec {
-        executable "./fetch_playlists.sh"
-    }
-}
-
-clean.doFirst {
-    // Delete playlists
-    delete fileTree(dir:'src/main/res/raw/', include: 'tvos**.json')
-}
-
 play {
     serviceAccountCredentials = rootProject.file("../AppSignature/play-store.json")
     track = 'beta'
